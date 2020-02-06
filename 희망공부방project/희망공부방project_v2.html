@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.logo{
+			margin: 0px 50px;
+			padding: 0px 205px;
+
+		}
+		div ul li{
+			display:inline-block;
+			margin:30px;
+			font-size:1em;
+			font-weight:bolder;
+		}
+		
+		.center-img{
+			float:left;
+			padding-left:100px;
+			padding-top:20px;
+			padding-right:100px;
+
+		}
+		.select{
+			text-align:center;
+			background-color:#08c;
+			
+			
+		}
+		.select ul{
+			margin:0px;
+
+		}
+		.select ul li{
+			border:1px solid white;
+			
+		}
+
+		table tr:nth-child(2n+1){
+			background:lightgray;
+			color:#0000ff;
+
+
+		}
+		.w1{
+			margin:0 auto;
+			border-collapse:collapse;
+		}
+		.w1 tr td{
+			
+			width:1000px;
+			height:30px;
+		}
+		span{
+			color:#ee0000;
+		}
+		.textline{
+			width:1000px;
+		}
+		.w2{
+			margin:0 auto;
+			border-collapse:collapse;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="logo">
+		<img src='희망공부방.png' class="center-img" width="178" height="50">
+		<ul>
+			<li>희망공부방</li>
+			<li>희망공부방 활동</li>
+			<li>희망공부방 선생님</li>
+			<li>커뮤니티</li>
+			<li>소식</li>
+		</ul>
+	</div>
+	<img src='공부방사진.png' width="1690" height="360" >
+
+	<div class="select">
+		<ul>
+			<li>모집요강</li>
+			<li>참여센터</li>
+			<li>지원하기</li>
+			<li>지원확인</li>
+		</ul>
+	</div>
+
+	<br>
+	<br>
+
+	<table border="1" class="w1">
+		<tr><td>사진 *</td></tr>
+		<tr><td>파일선택 선택된 파일 없음</td></tr>
+		<tr><td>지원학년 *</td></tr>
+		<tr><td><label><input type="checkbox" name="middle">중등부  </label><label><input type="checkbox" name="high">고등부  </label> <span>※ 중복체크 가능</span></td></tr>
+		<tr><td>지원구분 *</td></tr>
+		<tr><td><label><input type="checkbox" name="eng">영어    </label><label><input type="checkbox" name="math">수학
+		 </label> <span>※ 중복체크 가능</span></td></tr>
+		<tr><td>성별</td></tr>
+		<tr><td><label><input type="radio" name="gender">남성  </label><label><input type="radio" name="gender">여성  </label> </td></tr>
+		<tr><td>성명 *</td></tr>
+		<tr><td><input type="text" class="textline"></td></tr>
+		<tr><td>비밀번호 *</td></tr>
+		<tr><td><input type="text" class="textline"></td></tr>
+		<tr><td>생년월일 *</td></tr>
+		<tr><td><input type="text" class="textline"></td></tr>
+		<tr><td>연락처 *</td></tr>
+		<tr><td><input type="text" class="textline"></td></tr>
+		<tr><td>E-mail</td></tr>
+		<tr><td><input type="text" class="textline"></td></tr>
+		<tr><td>대학교</td></tr>
+		<tr><td><input type="text" class="textline"></td></tr>
+		<tr><td>전공</td></tr>
+		<tr><td><input type="text" class="textline"></td></tr>
+		<tr><td>학년</td></tr>
+		<tr><td><input type="text" class="textline"></td></tr>
+		<tr><td>재학/휴학</td></tr>
+		<tr><td><label><input type="radio" name="now">재학  </label><label><input type="radio" name="rest">휴학  </label> </td></tr>
+		<tr><td>대학 소재지 *</td></tr>
+		<tr><td><input type="text" class="textline">
+		<input type="text" class="textline" placeholder="상세주소입력"></td></tr>
+		<tr><td>희망공부방 강사참여경험</td></tr>
+		<tr><td><input type="text" class="textline"></td></tr>
+		<tr><td>희망토요일 강사참여경험</td></tr>
+		<tr><td><input type="text" class="textline"></td></tr>
+	</table>
+
+	<br>
+	<br>
+
+	<table border="1" class="w2">
+		<tr><td>활동사항1</td></tr>
+		<tr><td>
+				프로그램 명<br>
+				<input type="text" class="textline"><br>
+				기간<br>
+				<input type="text" class="textline"><br>
+				한 줄 요약
+				<br><input type="text" class="textline"><br>
+		</td></tr>
+		
+	</table>
+
+	<p class="warn">※ 필요시 추가 가능</p>
+</body>
+</html>

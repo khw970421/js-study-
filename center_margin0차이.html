@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.b1{
+			text-align:center;
+			border:1px solid red;
+		}
+		.ib{
+			border:1px solid red;
+			text-align:center;
+			margin:0;
+		}
+		
+		.i1 {
+			border:1px solid red;
+			text-align:center;
+			margin:0px;
+		}
+		.b2{
+			margin:0 auto;
+			border:1px solid red;
+		}
+		.b3{
+			margin:0 auto;
+			width:600px;
+			border:1px solid red;
+		}
+	</style>
+</head>
+<body>
+	<div class="b1">블록 요소(display:block이랑 같음)에 text-align:center</div>
+	<a href="http://khw970421.dothome.co.kr/sitemake.html" class="ib">in-line 요소에 text-align:center(실행의미x)</a>
+	<p class="i1">
+	<a href="http://khw970421.dothome.co.kr/sitemake.html">in-line 요소에 부모요소를 display 적용 text-align:center(실행의미o)</a>
+	</p>
+	<div class="b2">블록요소에 margin:0 auto사용(실행의미x)</div>
+	<div class="b3">블록요소에 margin:0 auto사용 가로사이즈 추가(실행의미o)</div>
+</body>
+</html>
